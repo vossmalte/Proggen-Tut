@@ -1,0 +1,31 @@
+%% Beispiel-Präsentation
+\documentclass{sdqbeamer} 
+
+\usepackage[utf8]{inputenc} % this is needed for german umlauts
+ 
+%% Titelbild
+\titleimage{bauplan_2020_sdq}
+
+%% Gruppenlogo
+\grouplogo{sdq_logo} 
+
+%% Gruppenname
+\groupname{}
+
+% Beginn der Präsentation
+
+\title{Programmieren Tutorium \# 3}
+%\subtitle{Untertitel} 
+\author{Malte Vo\ss}
+\date{}        % specify date if needed
+
+\input{pandoc.tex}
+
+\begin{document}
+
+%Titelseite
+\KITtitleframe
+
+\input{main.tex}
+
+\end{document}
