@@ -152,13 +152,15 @@ class Programm {
     - `9/2`
     - `1 + 1/2`
     - `5 * 0.5`
-    - `"Hallo " + 7`{.java}
+    - `7 + "Hallo"`
 - testen, z.B. mit `System.out.println(1+2)`
 
-## Ende
+##
 
 \centering
 
-\includegraphics[keepaspectratio,height=0.8\textheight}{01/abstraction.png}
+~~~{=latex}
+\includegraphics[keepaspectratio,height=0.8\textheight]{01/abstraction.png}
+~~~
 
 <!---![xkcd: Abstraction](01/abstraction.png){height=80%,keepaspectratio}-->
