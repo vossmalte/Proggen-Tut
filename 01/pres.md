@@ -1,5 +1,7 @@
 # Begrüßung
+
 ## Willkommen
+
 ... über mich
 
 - studiere Mathematik und Informatik auf Lehramt
@@ -32,7 +34,7 @@ Stellt euch bitte kurz vor:
     - Tutor fragen
     - Übungsleitung fragen
 
-## Wie ist das Modul strukturiert?
+## Struktur des Moduls
 
 - Der Übungsschein ist Voraussetzung für die Teilnahme an den Abschlussaufgaben
 - Die Abschlussaufgaben sind benotet
@@ -54,11 +56,12 @@ Stellt euch bitte kurz vor:
 - alle Personen geben das gleiche ab
 
 \pause
+
 - bildet bitte jetzt Teams
 - Teams werden notiert
 
-
 ## Inhalte des Tutoriums
+
 - Themen aus der Vorlesung wiederholen
 - Übungsblätter besprechen
 - kleine Programmieraufgaben
@@ -76,12 +79,12 @@ Stellt euch bitte kurz vor:
 # Java - Start
 
 ## Java: Installation
+
 - OpenJDK eignet sich als Entwicklungsumgebung
     - `sudo apt-get install openjdk-11-jdk` oder adoptopenjdk.net
 - Windows: Umgebungsvariablen setzen!
 - in der CMD oder im Terminal testen:
     - `java --version` und `javac --version`
-
 
 ## Java: Mein erstes Programm
 
@@ -92,7 +95,9 @@ class Programm {
     }
 }
 ~~~
+
 \pause
+
 - Kompilieren: `javac Programm.java`
 - Ausführen: `java Programm`
 
@@ -102,23 +107,26 @@ class Programm {
 - mit `cd` kann man das Verzeichnis wechseln (`..` ist "zurück")
 
 \pause
+
 - Windows unterstützt das Windows Subsystem für Linux
 - Auf Windows gibt es PowerShell, das funktioniert wie bash
-
 
 # Objekte und Klassen
 
 ## Objektorientierung
+
 - Objekt-orientierte Programmierung ist das Mantra dieser Vorlesung
 
 - Begriffe: Objekt, Klasse
 
 \pause
+
 - Objekte sind Abstrahierungen der realen Welt
 - Klassen sind Baupläne der Objekte
 - Die Eigenschaften von Objekten werden _Attribute_ genannt
 
 \pause
+
 - `Car meinAuto = new Car();` erzeugt ein neues Objekt der Klasse Car
 
 ## Aufgabe
@@ -133,7 +141,7 @@ class Programm {
 - ganze Zahlen `int, byte, short, long`
 - Text: `String`
 - Kommazahlen: `double, float`
-- Wahrheitswerte: `boolean` 
+- Wahrheitswerte: `boolean`
 
 ## Datentypen - Operatoren
 
@@ -144,14 +152,13 @@ class Programm {
     - `9/2`
     - `1 + 1/2`
     - `5 * 0.5`
-    - `\~"Hallo " + 7`{.java}
+    - `"Hallo " + 7`{.java}
 - testen, z.B. mit `System.out.println(1+2)`
 
 ## Ende
 
 \centering
 
-\includegraphics[keepaspectratio,height=\textheight}{01/abstraction.png}
+\includegraphics[keepaspectratio,height=0.8\textheight}{01/abstraction.png}
 
 <!---![xkcd: Abstraction](01/abstraction.png){height=80%,keepaspectratio}-->
-
