@@ -1,5 +1,7 @@
 # Beispiel
 
+[//]: # this is a comment
+
 ## Beispiel Folie 1
 
 - some enum
