@@ -1,4 +1,8 @@
+## generated pandoc output
 main.tex
+
+## Java binaries
+*.class
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
