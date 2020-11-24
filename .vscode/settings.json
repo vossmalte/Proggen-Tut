@@ -8,5 +8,11 @@
             "runningStatusMessage": "Compiling ${fileBasename}",
             "finishStatusMessage": "${fileRelative} pandoc'd"
         }
-    ]
+    ],
+    "markdownlint.config": {
+        "MD025": false,
+        "MD007": {"indent": 4},
+        "MD040":false,
+        "MD013": {"line_length": 120}
+    }
 }
