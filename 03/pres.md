@@ -215,6 +215,14 @@ enum Himmelsrichtung {
 
 - bei Fragen bitte das Forum aufsuchen
 
+## Umfrage
+
+~~~{=latex}
+\includegraphics[keepaspectratio,height=0.8\textheight]{03/umfrage}
+~~~
+
+<http://invote.de/43349>
+
 ## Ende
 
 ~~~{=latex}
