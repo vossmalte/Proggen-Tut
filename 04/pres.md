@@ -1,6 +1,6 @@
 # Kontrollstrukturen
 
-## Wiederholung 
+## Wiederholung
 
 Kahoot!
 
@@ -10,7 +10,7 @@ Kahoot!
 
 - Code auf Englisch
 - Benennung
-    - Variablen klein: `int ergebnis;`
+    - Variablen klein: `int result;`
     - Klassen Groß: `class CarFactory{}`
     - Konstanten GROSS: `static final double EULERS_NUMBER = 2.78;`
     - Methoden klein: `void startGame(){}`
@@ -32,7 +32,7 @@ static double convertToFahrenheit(double celsius) {
 }
 ~~~
 
-- Signatur: der Name und die Parameter\\
+- Signatur: der Name und die Parameter\newline
    hier: `convertToFahrenheit(double)`
     - es kann nur eine Methode mit dieser Signatur geben
 - Rückgabetyp: `double`
@@ -76,7 +76,7 @@ Schreibe eine Methode, die...
 - das Schlagwort für Konstruktoren ist `new`
 - `new Car()` erzeugt ein neues Objekt vom Typ Car
 \pause
-- Konstruktor anpassen:\\
+- Konstruktor anpassen: \newline
   `Car() {this.ps = 300;}`
 
 ## Utility-Klassen
@@ -116,6 +116,8 @@ Modelliere und implementiere das Szenario:
 - Ein Konto kann ein- und auszahlen und die IBAN ausgeben
 
 - 4 Personen haben 4 Konten bei zwei Banken
+
+- Abgaben gerne per Mail, um Feedback zu erhalten!
 
 ## Übungsblätter
 
