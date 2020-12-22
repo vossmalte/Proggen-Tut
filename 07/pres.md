@@ -114,4 +114,11 @@ class Student {
 ## Aufgaben
 
 - lass die Professor:in alle anderen Menschen gleich begrüßen
-- implementiere selbst eine Liste, die Studenten speichern kann
+- implementiere selbst eine Liste, die Studenten verwaltet
+- nutze `enum`, um eine Kommandozeileninteraktion umzusetzen
+
+# Übungsblatt 3
+
+## ÜB 3
+
+Fragen?
