@@ -20,7 +20,10 @@ class Student {
         Professor anne = new Professor();
         anne.name = "Anne";
 
-        malte.greet(peter);
-        malte.greet(anne);
+        System.out.println(malte.greet(peter));
+        System.out.println(malte.greet(anne));
+
+        System.out.println(anne.greet(malte));
+        System.out.println(anne.greet(anne));
     }
 }

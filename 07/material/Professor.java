@@ -6,6 +6,14 @@ class Professor extends Student {
         return "Prof.Dr. " + this.name;
     }
 
+    //public String greet(Student other) {
+    //    return "Lieber " + other;
+    //} 
+
+    public String greet(Professor other) {
+        return "Hi " + other;
+    } 
+
     public static void main(String[] args) {
         Student s = new Student();
         s.name = "Malte";
