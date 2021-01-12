@@ -130,6 +130,15 @@ Kahoot!
 
 - Fragen?
 - Hinweis: Ein- und Ausgabe exakt prüfen
+- Ausblick Abschlussaufgaben: Methodik wird immer wichtiger
+
+## 5. ÜB
+
+- Auftrag bis zum nächsten Tutorium: Modellieren, um mögliche Schwierigkeiten zu besprechen
+
+## Übungsschein
+
+- Bitte im Campus Management System anmelden!
 
 ## Übungsaufgabe: Doppelt verkettete Liste
 
