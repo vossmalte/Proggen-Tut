@@ -36,6 +36,7 @@ int fib(int n) {
 ## Rekursion: Aufgaben
 
 - Fakultät rekursiv berechnen: $n! = n*(n-1)!$
+- größter gemeinsamer Teiler: $\text{ggT}(a,a)=a; \text{ggT}(a,b)=\text{ggT}(b-a,a);$
 
 ## Rekursiv vs. iterativ
 
@@ -63,7 +64,7 @@ int fib(int n) {
   \pause
   `class Tupel<S,T>{...}`
   \pause
-- weitere Ideen: 
+- weitere Ideen:
   - man kann den Tupel mit einem anderen addieren
   - wie baut man daraus schnell einen Dreiertupel?
 
