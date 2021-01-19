@@ -40,7 +40,7 @@ int fib(int n) {
 
 ## Rekursiv vs. iterativ
 
-- jedes iterative Problem ist iterativ lösbar
+- jedes iterative Problem ist rekursiv lösbar
 - nicht jedes rekursive Problem lässt sich iterativ lösen
 - wenn sich Iteration anbietet, ist das geschickter, weil es keinen aufwändigen Callstack gibt
 
