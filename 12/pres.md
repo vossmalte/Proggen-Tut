@@ -24,22 +24,22 @@
 
 ## JUnit Annotationen
 
-- '@Test' markiert einen Test
-- '@BeforeClass' wird vor allen Tests in dieser Klasse durchgeführt (vgl '@AfterClass')
-- '@Before' wird vor jedem einzelnen Test durchgeführt
+- `@Test` markiert einen Test
+- `@BeforeClass` wird vor allen Tests in dieser Klasse durchgeführt (vgl `@AfterClass`)
+- `@Before` wird vor jedem einzelnen Test durchgeführt
 
 ## JUnit Assertions
 
 - es gibt für quasi alles eine Assertion
-- 'assertTrue()', 'assertEquals()', 'assertArrayEquals()'
-- in Eclipse: tippe "assert" und autocomplete ('ctrl+space')
+- `assertTrue()`, `assertEquals()`, `assertArrayEquals()`
+- in Eclipse: tippe "assert" und autocomplete (`ctrl+space`)
 
 # Assertions
 
 ## Java Assertions
 
 - können gut zum Debuggen verwendet werden
-- werden mit 'java -ea Main' aktiviert (enable assertions)
+- werden mit `java -ea Main` aktiviert (enable assertions)
 
 # Methodik
 
